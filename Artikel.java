@@ -8,21 +8,25 @@
 public class Artikel
 {
     private String naam;    
-    private int prijs;
+    private double prijs;
 
     /**
      * Constructor for objects of class Artikel
      */
-    public Artikel(String artikelNaam, int artikelPrijs)
+    public Artikel(String artikelNaam, double artikelPrijs)
     {
         naam = artikelNaam;
         prijs = artikelPrijs;
+    }
+    
+    public Artikel()
+    {
     }
 
     /**
      * @return prijs
      */
-    public int getPrijs()
+    public double getPrijs()
     {
         return prijs;
     }
@@ -38,7 +42,7 @@ public class Artikel
     /**
      * @set prijs
      */
-    public void setPrijs(int nieuwprijs)
+    public void setPrijs(double nieuwprijs)
     {
         prijs = nieuwprijs;
     }

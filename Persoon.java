@@ -22,7 +22,19 @@ public Persoon( int PersoonBSN, String PersoonVoornaam, String PersoonAchternaam
     setGeboortedatum(PersoonGeboortedatumdag, PersoonGeboortedatummaand, PersoonGeboortedatumjaar);
     setGeslacht(PersoonGeslacht);
 }
-   
+  
+public Persoon ()
+{
+}
+
+/**
+ * Methode om dienblad te koppelen aan een persoon
+ * @param dienblad
+ */
+public void pakDienblad(Dienblad dienblad) {
+ //method body omitted
+} 
+
 /**
  * Setter voor BSN
  */
